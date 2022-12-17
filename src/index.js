@@ -1,7 +1,7 @@
 import express from "express";
 import cookieParser from "cookie-parser";
 import session from "express-session";
-import mainRouter from "./routes/route";
+import mainRouter from "./routes/route.js";
 import MongoStore from "connect-mongo";
 import config from "./config/index.js";
 

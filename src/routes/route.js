@@ -6,7 +6,7 @@ import {
   log,
   logget,
 } from "../controllers/controller.js";
-import { loginmiddle } from "../middlewares/middlewares.js";
+import { loginmiddle } from "../middleware/middleware.js";
 
 router.post("/login", log);
 
