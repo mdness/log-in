@@ -4,6 +4,6 @@ dotenv.config();
 
 export default {
   MONGO_ATLAS_URL:
-    process.env.MONGO_ATLAS_URL || "mongodb://localhost:27017/productos",
+    process.env.MONGO_ATLAS_URL || "mongodb://localhost:27017/home",
 };
 
